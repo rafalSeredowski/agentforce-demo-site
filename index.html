@@ -41,24 +41,25 @@
   </div>
 	
   <script type='text/javascript'>
-    function initEmbeddedMessaging() {
-      try {
-        embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
-        embeddedservice_bootstrap.init(
-          '00DKa00000RQqgF',
-          'Github_New_Mess_Setting',
-          'https://nd1760782253509.my.site.com/ESWGithubNewMessSettin1783598499676',
-          {
-            scrt2URL: 'https://nd1760782253509.my.salesforce-scrt.com'
-          }
-        );
-      } catch (err) {
-        console.error('Error loading Embedded Messaging: ', err);
-      }
-    };
-  </script>
-  <script type='text/javascript' src='https://nd1760782253509.my.site.com/ESWGithubNewMessSettin1783598499676/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+			embeddedservice_bootstrap.init(
+				'00DKa00000RQqgF',
+				'Github_Messaging_v2',
+				'https://nd1760782253509.my.site.com/ESWGithubMessagingv21783604729009',
+				{
+					scrt2URL: 'https://nd1760782253509.my.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://nd1760782253509.my.site.com/ESWGithubMessagingv21783604729009/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
 
 </body>
 </html>
